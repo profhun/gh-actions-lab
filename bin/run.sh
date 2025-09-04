@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo This runs
+echo This runs better
