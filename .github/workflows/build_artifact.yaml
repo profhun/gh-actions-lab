@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.DH_PAT }}
 
       - name: Build image
-        run: docker build -t cicd:test -f Dockerfile .
+        run: docker build -t profhun/cicd:test -f Dockerfile .
 
       - name: Push image
-        run: docker push registry-1.docker.io/profhun/cicd:test
+        run: docker push profhun/cicd:test
