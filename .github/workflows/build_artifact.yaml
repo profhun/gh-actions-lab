@@ -37,4 +37,4 @@ jobs:
         run: docker build -t cicd:test -f Dockerfile .
 
       - name: Push image
-        run: docker push registry-1.docker.io/cicd:test
+        run: docker push registry-1.docker.io/profhun/cicd:test
